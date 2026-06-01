@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Lint & dry-run
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Shellcheck install.sh
+        run: shellcheck install.sh
+
+      - name: Make installer executable
+        run: chmod +x install.sh
+
+      - name: Installer dry-run (no changes)
+        run: ./install.sh --dry-run
+
+      - name: Validate Brewfile syntax
+        run: brew bundle list --file=Brewfile >/dev/null

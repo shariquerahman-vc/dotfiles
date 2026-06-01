@@ -1,5 +1,6 @@
 # dotfiles
 
+[![CI](https://github.com/shariquerahman-vc/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/shariquerahman-vc/dotfiles/actions/workflows/ci.yml)
 ![Platform](https://img.shields.io/badge/platform-macOS-000000?logo=apple&logoColor=white)
 ![Shell](https://img.shields.io/badge/shell-zsh-1f425f?logo=gnu-bash&logoColor=white)
 ![Editor](https://img.shields.io/badge/editor-Neovim-57A143?logo=neovim&logoColor=white)
