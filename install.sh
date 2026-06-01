@@ -26,7 +26,7 @@ for arg in "$@"; do
 done
 
 log()  { printf '%s\n' "$*"; }
-run()  { if [ "$DRY_RUN" -eq 1 ]; then log "  [dry-run] $*"; else eval "$@"; fi; }
+run()  { if [ "$DRY_RUN" -eq 1 ]; then log "  [dry-run] $*"; else eval "$*"; fi; }
 
 # link_file <source> <target>
 link_file() {
@@ -77,4 +77,6 @@ if [ -d "$CONFIG_SRC" ]; then
 fi
 
 log "\nDone."
-[ "$FORCE" -eq 0 ] && [ -d "$BACKUP_DIR" ] && log "Backups: $BACKUP_DIR"
+if [ "$FORCE" -eq 0 ] && [ -d "$BACKUP_DIR" ]; then
+  log "Backups: $BACKUP_DIR"
+fi
