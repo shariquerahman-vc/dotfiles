@@ -1,5 +1,11 @@
 # dotfiles
 
+![Platform](https://img.shields.io/badge/platform-macOS-000000?logo=apple&logoColor=white)
+![Shell](https://img.shields.io/badge/shell-zsh-1f425f?logo=gnu-bash&logoColor=white)
+![Editor](https://img.shields.io/badge/editor-Neovim-57A143?logo=neovim&logoColor=white)
+![Homebrew](https://img.shields.io/badge/pkgs-Homebrew-FBB040?logo=homebrew&logoColor=white)
+![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
+
 Personal macOS configuration, version-controlled and reproducible on a fresh machine.
 
 ## What's tracked
