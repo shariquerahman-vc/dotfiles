@@ -1,0 +1,21 @@
+# --- Secrets / credentials: never commit ---
+**/*token*
+**/*secret*
+**/*.pem
+**/*.key
+**/id_rsa*
+**/id_ed25519*
+.env
+.env.*
+
+# gh stores auth in hosts.yml / keyring — only config.yml is tracked
+config/gh/hosts.yml
+
+# github-copilot auth db (excluded entirely)
+config/github-copilot/
+
+# OS noise
+.DS_Store
+
+# nvim runtime artifacts (config is tracked, state/cache is not)
+config/nvim/.git/

@@ -1,0 +1,2 @@
+Nvim config was cloned from a git repo. Remote:
+https://github.com/shariquerahman-vc/nvim-config.git
