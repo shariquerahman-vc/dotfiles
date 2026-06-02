@@ -115,15 +115,13 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /Users/shariquezararrahman/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source <(fzf --zsh)
 export PATH="$HOME/.local/bin:$PATH"
 
 
 # opencode
-export PATH=/Users/shariquezararrahman/.opencode/bin:$PATH
+export PATH=/Users/sharique/.opencode/bin:$PATH
 export TERM=xterm-256color
 export COLORTERM=truecolor
 
-# OpenClaw Completion
-source "/Users/shariquezararrahman/.openclaw/completions/openclaw.zsh"
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

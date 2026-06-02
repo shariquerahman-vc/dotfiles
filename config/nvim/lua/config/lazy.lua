@@ -51,7 +51,7 @@ require("lazy").setup({
 vim.defer_fn(function()
   vim.opt.termguicolors = true
   vim.opt.rtp:prepend(vim.fn.stdpath("data") .. "/lazy/lush.nvim")
-  package.path = package.path .. ";/Users/shariquezararrahman/.config/nvim/lua/theme/?.lua"
+  package.path = package.path .. ";/Users/sharique/.config/nvim/lua/theme/?.lua"
   local theme = require("myLushTheme")
   local lush = require("lush")
   lush.apply(theme)
