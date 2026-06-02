@@ -13,6 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install shellcheck
+        run: brew install shellcheck
+
       - name: Shellcheck install.sh
         run: shellcheck install.sh
 
