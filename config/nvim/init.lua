@@ -9,17 +9,5 @@ vim.opt.swapfile = false
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- Filetype detection --
-vim.filetype.add({
-  filename = {
-    ["Jenkinsfile"] = "groovy",
-  },
-  pattern = {
-    ["[Jj]enkinsfile.*"] = "groovy",
-    [".*%.jenkinsfile"] = "groovy",
-    [".*%.gradle"] = "groovy",
-  },
-})
-
 -- Load Lazy --
 require("config.lazy")
