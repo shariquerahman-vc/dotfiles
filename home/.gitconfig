@@ -3,3 +3,12 @@
 # Please adapt and uncomment the following lines:
 	name = shariquerahman-vc
 	email = sharique.rahman@vantagecircle.com
+[url "https://github.com/"]
+	insteadOf = ssh://git@github.com/
+	insteadOf = git@github.com:
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

@@ -31,7 +31,6 @@ return {
           "dockerls",
           "docker_compose_language_service",
           "gopls",
-          "groovyls",
           "helm_ls",
           "html",
           "jsonls",

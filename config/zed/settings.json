@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
   "vim_mode": true,
   "agent_ui_font_size": 13.0,
   "agent_buffer_font_size": 13.0,
@@ -37,6 +42,6 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Frappé",
-    "dark": "Catppuccin Mocha"
+    "dark": "Ayu Dark"
   }
 }
